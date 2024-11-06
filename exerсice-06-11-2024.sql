@@ -14,4 +14,13 @@ values
 	(2,'Tyler Dyrden', 61, "1963-12-18"),
 	(3,'Gustav Ahr', 21, "1996-11-1"),
 	(4,'Fisenko Maxim', 25, "1998-12-14"),
-	(5,'Zane Steckler', 23, "2000-12-2")
+	(5,'Zane Steckler', 23, "2000-12-2");
+    
+
+
+SELECT * FROM Estudantes
+WHERE age > 18
+ORDER BY age DESC
+LIMIT 3;
+
+    
