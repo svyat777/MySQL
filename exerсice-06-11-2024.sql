@@ -17,10 +17,19 @@ values
 	(5,'Zane Steckler', 23, "2000-12-2");
     
 
+SELECT 
+    COUNT(*) AS total_students,                    
+    AVG(age) AS average_age,                        
+    MIN(age) AS youngest_age,                        
+    MAX(age) AS oldest_age                           
+FROM Estudantes
+WHERE age > 18;
+
 
 SELECT * FROM Estudantes
 WHERE age > 18
 ORDER BY age DESC
 LIMIT 3;
+
 
     
